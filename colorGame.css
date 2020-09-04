@@ -6,6 +6,11 @@
 body{
     background-color: #232323 ;
 }
+.main{
+	height: 100vh;
+	border: 2px solid white;
+	position: relative;
+}
 h1{
     text-align: center;
     color: white;
@@ -99,9 +104,12 @@ button:hover{
     background-color: rgb(50, 50, 110);
     color: white;
     font-size: 15px;
-    margin-top: 70px;
+	/* margin-top: auto; */
+	width: 100vw;
     text-align: center;
-    font-family: sans-serif;
+	font-family: sans-serif;
+	position: fixed;
+	bottom: 0;
 }
 .footer a{
     color: rgb(146, 146, 199);

@@ -1,5 +1,5 @@
 //to keep track of the mode i.e hard or easy
-var numSquares=6
+var numSquares=6;
 //Array in which random colors are generated ot fill the squares
 var colors= generateRandomColors(numSquares);
 
