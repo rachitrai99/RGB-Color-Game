@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Color Game</title>
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
 <h1>
-	The Great 
-	<br>
-	<span id="colorDisplay">RGB</span> 
-	<br>
-	Color Game
+	Guess The RGB Color Game
+        <p>- - - - - - - - - - - - - - - -</p> 
+        Where is 
+        <span id="colorDisplay">RGB</span>?
+        <br>
+        
 </h1>
 
 <div id="stripe">
 	<button id="reset">New Colors</button>
 	<span id="message"></span>
-	<button class="mode">Easy</button>
-	<button class="mode selected">Hard</button>
+	<button id="easyBtn">Easy</button>
+    <button id="hardBtn" class="selected">Hard</button>
 </div>
 
 	<div id="container">
@@ -28,6 +31,15 @@
 		<div class="square"></div>
 		<div class="square"></div>
 	</div>
+
+	<div class="footer">
+		<h3>Made by Rachit rai,
+		  Roll No. 38
+		</h3>
+		<p>
+			Contact me @ <a href="mailto:rachit.rai_cs18@gla.ac.in">mail</a>
+ 		</p>
+ 	</div>
 
 <script type="text/javascript" src="colorGame.js"></script>
 </body>
